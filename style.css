@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  padding: 55px;
+  max-width: 920px;
+  margin: auto;
+}
+
+.maincode{
+    margin: auto;
+    text-align: center;
+}
+
+.which1{
+    font-size: 155px;
+}
+.a{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mainkey{
+    font-size: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+.card {
+  width: 280px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: 0.5s;
+  box-shadow: 0 0 5px 2px #00000060;
+}
+
+.card:hover {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 15px 5px #00000060;
+  scale: 1.1;
+}
+.key {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  justify-content: center;
+  background: rgb(1, 1, 199);
+  color: #fff;
+}
+.dinamic{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.modal{
+  z-index: 999;
+  background: #fff;
+  position: fixed;
+  font-size: 50px;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 0 0 5px #00fc61;
+}
+
+.modal p{
+  box-shadow: 0 0 5px 6px #00000074;
+  margin: auto;
+  padding: 25px;
+}
+
+.modal a{
+  text-decoration: none;
+  padding-bottom: 25px;
+}
+
+@media(max-width: 700px){
+  
+  .modal{
+  font-size: 20px;
+  padding: 5px;
+  }
+  }
